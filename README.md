@@ -21,7 +21,7 @@
 
 ```
 $ git clone https://github.com/MatheusDevios/Pokemon-API.git
-$ cd react-todolist
+$ cd Pokemon-API
 $ npm install
 $ npm start
 ```
