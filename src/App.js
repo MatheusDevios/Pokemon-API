@@ -38,6 +38,7 @@ function App() {
       console.log(promises);
 
       const results = await Promise.all(promises);
+      console.log(results);
       setPokemons(results);
       setLoading(false);
       setTotalPages(Math.ceil(data.count / itensPerPage));
